@@ -68,7 +68,7 @@ input::-moz-focus-inner {
 
 input, select, textarea {
 	-moz-appearance: none;
-	-webkit-appearance: none;
+	-webkit-appearance: none;	
 	-ms-appearance: none;
 	appearance: none;
 }
@@ -238,6 +238,7 @@ input, select, textarea {
 	}
 
 	blockquote {
+		font-family:"Source Sans Pro", sans-serif;
 		border-left: solid 4px;
 		font-style: normal;
 		margin: 0 0 2rem 0;
@@ -2312,6 +2313,7 @@ input, select, textarea {
 
 		}
 
+
 	label {
 		display: block;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -2907,6 +2909,7 @@ input, select, textarea {
 	section.special, article.special {
 		text-align: center;
 	}
+	
 
 	header {
 		cursor: default;
@@ -2950,6 +2953,11 @@ input, select, textarea {
 			text-align: center;
 		}
 
+		header.space {
+			display: inline-block;
+			width: 45%;
+		}
+		
 			header.major > :last-child {
 				margin-bottom: 0;
 			}
@@ -3311,7 +3319,7 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+		min-height: 20vh;
 	}
 
 		#intro input, #intro select, #intro textarea {
