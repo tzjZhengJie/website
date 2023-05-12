@@ -183,7 +183,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family:"Source Sans Pro", sans-serif;
-		font-weight: 300;
+		font-weight: 600;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
@@ -241,6 +241,7 @@ input, select, textarea {
 		font-family:"Source Sans Pro", sans-serif;
 		border-left: solid 4px;
 		font-style: normal;
+		font-weight: 600;
 		margin: 0 0 2rem 0;
 		padding: 0.5rem 0 0.5rem 2rem;
 	}
@@ -3227,7 +3228,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		-moz-transition: opacity 0.5s ease;
+		-moz-transition: opacity 0.7s ease;
 		-webkit-transition: opacity 0.5s ease;
 		-ms-transition: opacity 0.5s ease;
 		transition: opacity 0.5s ease;
@@ -3299,7 +3300,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		display: -moz-flex;
+		display: -moz-flex;	
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
@@ -3319,7 +3320,7 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 10vh;
+		min-height: 20vh;
 	}
 
 		#intro input, #intro select, #intro textarea {
